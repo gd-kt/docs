@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Docs for gd.kt",
+  "homepage": "https://github.com/gd-kt/gd.kt#readme",
+  "bugs": {
+    "url": "https://github.com/gd-kt/gd.kt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gd-kt/gd.kt.git"
+  },
+  "author": "Geming400",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.20"
+  }
+}
