@@ -28,6 +28,10 @@ object for **another purpose**.
 - `ConditionalProperty`
 - ...
 
+You can look at classes implementing `PropertyDefinition` in your IDE to look at all the properties.
+
+---
+
 Properties store 2 main information: their current value and their id. They act like an advanced pair object.
 
 **Most properties** can be initiated like so: `Property(1.id, myValue)`.
@@ -217,7 +221,7 @@ These properties are **always mutable**.
 To modify these collections, **accessing them directly is not a great idea** !
 
 Collection properties provide custom functions to add, remove, etc... values from said collection.
-However, if it doesn't, you can call the `getOrCreateCollection` function:
+However, if it doesn't, you can call the `getOrCreateCollection` function: <Badge type="tip" text="available in the public api since v1.0.3"/>
 
 ```kotlin
 val myCollectionProp = TODO()
@@ -227,8 +231,8 @@ val myCollectionProp = TODO()
 // call it
 myCollectionProp.getOrCreateCollection().addAll(TODO())
 
-// However THIS SHOULDN'T be done !
-myCollectionProp.value.addAll(TODO())
+// However THIS SHOULDN'T be done !   // [!code error]
+myCollectionProp.value.addAll(TODO()) // [!code error]
 ```
 
 But, for "pure" functions which don't mutate the collection, `.value` can
@@ -358,3 +362,33 @@ very recommended.
 :::
 
 [^1]: Raw strings are what geometry dash serializes/parses to save data.
+
+## Instantiating properties
+
+This last section is a bit more miscellaneous but it's about how a property can be initiated:
+
+- By calling its constructor
+- By calling its constructor + using the `by` keyword
+
+---
+
+The 1st option is the default way. It's what works the best and gives more freedom over the property.<br>
+The 2nd one allows to abstract away the property:
+
+```kotlin
+// This works with `RawStringFactory` interfaces
+val prop = IntProperty(5.id)
+val abstractedProp by prop
+
+// While this doesn't.
+// The original property is not visible
+val abstractedProp by IntProperty(5.id)
+```
+
+This allows the user to directly get/set the property's value without changing it's `.value` field:
+
+```kotlin
+assert(abstractedProp == 0)
+abstractedProp = 5
+assert(abstractedProp = 5)
+```
