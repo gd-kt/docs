@@ -6,4 +6,4 @@
 
 This is the official documentation for [gd.kt](https://github.com/gd-kt/gd.kt).
 
-To run this locally, run `npm run docs:dev`, or build and preview with `npm run docs:build` and `npm run docs:preview`.
+To run this locally, run `npm run ds:dev`, or build and preview with `npm run build` and `npm run preview`.
