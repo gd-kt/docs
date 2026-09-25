@@ -87,13 +87,14 @@ be no performance cost.
 
 **Dynamic** raw string factories are a special type of raw string factories.
 They allow you to add your own properties at runtime to an object.<br>
-The **default implementation** is a dynamic raw string factory.
+
+To create a dynamic raw string factory from the default implementation, use `RawStringFactory.createDynamic`
 
 Example:
 
 ```kotlin
 class MyObject : GenericGdObject {
-    override val rawStringFactory: DynamicRawStringFactory = RawStringFactory.create(this)
+    override val rawStringFactory: DynamicRawStringFactory = RawStringFactory.createDynamic(this)
 
     val objID = UIntProperty(1.id, defaultValue = 1)
     val x = FloatProperty(2.id)
