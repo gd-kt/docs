@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="docs/public/alt_logo.png" height=25% width=25% alt="gd.kt logo">
+    <img src="docs/public/alt_logo.png" height=35% width=35% alt="gd.kt logo">
 </div>
 
 # gd.kt documentation
