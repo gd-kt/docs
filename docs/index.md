@@ -28,6 +28,11 @@ features:
 
 <br>
 
+::: warning
+This documentation is still unfinished and is prone
+to changing !
+:::
+
 # gd.kt
 
 gd.kt is a simple kotlin library used for the game [Geometry Dash](https://store.steampowered.com/app/322170/Geometry_Dash/).
