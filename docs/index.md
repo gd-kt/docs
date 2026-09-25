@@ -23,7 +23,7 @@ features:
     link: editor-api/properties
   - title: Client API
     icon: 💻
-    details: Simple api to communicate with Geometry Dash's servers
+    details: Simple api to communicate with Geometry Dash's servers <u><b>(EXPERIMENTAL)</b></u>
 ---
 
 <br>
@@ -39,7 +39,7 @@ gd.kt is a simple kotlin library used for the game [Geometry Dash](https://store
 It provides 2 apis:
 
 - An editor API
-- A client API
+- A client API <Badge type="warning" text="experimental"/>
 
 ## Getting Started
 
