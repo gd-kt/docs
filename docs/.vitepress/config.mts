@@ -5,6 +5,7 @@ export default defineConfig({
   title: "gd.kt Documentation",
   description: "Docs for gd.kt",
   lang: "en-US",
+  base: "/docs/",
   themeConfig: {
     logo: "/logo.png",
 
