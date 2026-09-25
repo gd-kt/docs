@@ -19,7 +19,7 @@ export default defineConfig({
         text: 'Editor',
         items: [
           { text: 'Properties', link: '/editor-api/properties' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Objects', link: '/editor-api/objects' }
         ],
       },
             {
