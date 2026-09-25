@@ -217,11 +217,11 @@ Collection properties are used to store `MutableCollection` objects.
 
 These properties are **always mutable**.
 
-:::: important
+:::: important {#property-value-mutability-note}
 To modify these collections, **accessing them directly is not a great idea** !
 
 Collection properties provide custom functions to add, remove, etc... values from said collection.
-However, if it doesn't, you can call the `getOrCreateCollection` function: <Badge type="tip" text="available in the public api since v1.0.3"/>
+However, if it doesn't, you can call the `getOrCreateCollection` function:
 
 ```kotlin
 val myCollectionProp = TODO()
@@ -245,7 +245,7 @@ myCollectionProp.getOrThrow().joinToString()
 myCollectionProp.value?.joinToString() ?: ""
 ```
 
-::: details Why should this be done ? {#property-value-mutability-note}
+::: details Why should this be done ?
 From `AbstractProperty.value`'s KDoc:
 
 > Do note that this variable **may be dangerous to mutate** (changing the variable is not tho !!) (eg: adding elements to a collection)
@@ -319,7 +319,7 @@ As you can see, there are 2 main things we're doing here:
 
 ### Collection Properties { #collection-properties-making-tutorial }
 
-Collection properties are used to store collections. *(crazy right)*.<br>
+Collection properties are used to store collections *(crazy right)*.<br>
 They work a little bit differently than regular (non collection) properties.
 
 ---
