@@ -23,13 +23,13 @@ export default defineConfig({
           { text: 'Parsing', link: '/editor-api/parsing' }
         ],
       },
-      {
-        text: 'Client',
-        items: [
-          { text: 'Markdown Examples (client)', link: '/markdown-examples' },
-          { text: 'Runtime API Examples (client)', link: '/api-examples' }
-        ],
-      },
+      // {
+      //   text: 'Client',
+      //   items: [
+      //     { text: 'Markdown Examples (client)', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples (client)', link: '/api-examples' }
+      //   ],
+      // },
       {
         text: 'Misc',
         items: [
