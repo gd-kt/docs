@@ -39,7 +39,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/gd-kt/gd.kt' }
-    ]
+    ],
+
+    footer: {
+      "message": "Released under <a href=\"https://unlicense.org/\">UNLICENSE</a> - gd.kt is not affiliated with Geometry Dash"
+    }
   },
 
   head: [
