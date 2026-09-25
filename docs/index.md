@@ -20,6 +20,7 @@ features:
   - title: Editor API
     icon: 🛠️
     details: Provides an interface to make levels with a property system
+    link: editor-api/properties
   - title: Client API
     icon: 💻
     details: Simple api to communicate with Geometry Dash's servers
