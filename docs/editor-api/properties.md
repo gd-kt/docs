@@ -4,7 +4,7 @@ outline: deep
 
 # Properties
 
-To explain how `gd.kt` handles property you must first
+To explain how `gd.kt` handles properties you must first
 understand how geometry dash handles them.
 
 ## How the game does it {#how-gd-does-it}
