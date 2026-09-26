@@ -52,7 +52,7 @@ export default defineConfig({
     [
       'link', {
         rel: 'icon',
-        href: '/favicon.png'
+        href: '/docs/favicon.png'
       }
     ]
   ]
