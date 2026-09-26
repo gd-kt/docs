@@ -29,6 +29,81 @@ Some of the classes provided are:
 - `MoveTrigger`: Allows to move a group of objects
 - ...
 
+### Coordinate System
+
+To make instances of `gd.kt` objects, you must provide coordinates.
+Coordinates are expressed via the `Position` interface.
+
+---
+
+Two types of coordinates exist in `gd.kt`:
+
+- **Normal** coordinates
+- **Grid Pos** coordinates
+
+#### Normal Coordinates
+
+Normal coordinates are created via the `Pos` class.
+This coordinate is used by Geometry Dash.
+
+In it, `30` unit is equal to `1` grid unit.
+
+You can create a "grid centered" pos and a "grid uncentered" pos with these
+2 static functions:
+
+- `Pos.gridCentered`: places any object with this pos on the center of the grid.
+  The origin, is the [third example](#third-pos-example).
+- `Pos.gridUncentered`: places any object with this pos on **intersections** of the grid.
+
+::: details Examples
+
+For the coordinate `Pos(0f, 0f)`, or `Pos.gridUncentered(0f, 0f)`, on the origin:
+![Pos(0, 0) example](/assets/pos_origin.png)
+
+---
+
+For the coordinate `Pos(30f, 0f)`, `Pos.gridUncentered(1f, 0f)`, or `GridPos(1f, 0f)`, offseted by 1 block to the right from the origin:
+![Pos(15, 0) example](/assets/pos_offset_1.png)
+
+---
+
+For the coordinate `Pos(15f, 15f)`, `Pos.gridCentered(0f, 0f)` or `GridPos.gridCentered(0f, 0f)`:
+![Pos(15, 15) example](/assets/pos_on_grid.png) { #third-pos-example }
+
+:::
+
+### Grid Pos Coordinates
+
+Normal coordinates are created via the `GridPos` class.
+This coordinate is used by Geometry Dash.
+
+In it, `1` grid unit is equal to `30` unit.
+
+You can create a "grid centered" pos and a "grid uncentered" pos with these
+2 static functions:
+
+- `GridPos.gridCentered`: places any object with this pos on the center of the grid.
+  The origin, is the [third example](#third-gridpos-example).
+- `GridPos.gridUncentered`: places any object with this pos on **intersections** of the grid.<br>
+  Calling it is the same as calling `GridPos`'s constructor.
+
+::: details Examples
+
+For the coordinate `GridPos(0f, 0f)`, or `GridPos.gridUncentered(0f, 0f)`, on the origin:
+![Pos(0, 0) example](/assets/gridpos_origin.png)
+
+---
+
+For the coordinate `GridPos(1f, 0f)`, `GridPos.gridUncentered(1f, 0f)`, offseted by 1 block to the right from the origin:
+![Pos(15, 0) example](/assets/gridpos_offset_1.png)
+
+---
+
+For the coordinate `GridPos(0.5f, 0.5f)`, `Pos.gridCentered(0f, 0f)` or `GridPos.gridUncentered(0.5f, 0.5f)`:
+![Pos(15, 15) example](/assets/gridpos_on_grid.png) { #third-gridpos-example }
+
+:::
+
 ## Making your own objects
 
 Making your own objects[^1] is actually very straight forward.
