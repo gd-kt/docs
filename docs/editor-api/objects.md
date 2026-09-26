@@ -72,7 +72,7 @@ For the coordinate `Pos(15f, 15f)`, `Pos.gridCentered(0f, 0f)` or `GridPos.gridC
 
 :::
 
-### Grid Pos Coordinates
+#### Grid Pos Coordinates
 
 Normal coordinates are created via the `GridPos` class.
 This coordinate is used by Geometry Dash.
