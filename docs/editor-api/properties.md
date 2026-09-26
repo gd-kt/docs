@@ -4,7 +4,7 @@ outline: deep
 
 # Properties
 
-To explain how `gd.kt` handles property you must first
+To explain how `gd.kt` handles properties you must first
 understand how geometry dash handles them.
 
 ## How the game does it {#how-gd-does-it}
@@ -34,7 +34,7 @@ You can look at classes implementing `PropertyDefinition` in your IDE to look at
 
 Properties store 2 main information: their current value and their id. They act like an advanced pair object.
 
-**Most properties** can be initiated like so: `Property(1.id, myValue)`.
+**Most properties** can be instantiated like so: `Property(1.id, myValue)`.
 You can notice 2 things:
 
 - We're inputting the property's id. The `Int.id` extension is used
