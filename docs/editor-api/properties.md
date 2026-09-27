@@ -221,7 +221,7 @@ These properties are **always mutable**.
 To modify these collections, **accessing them directly is not a great idea** !
 
 Collection properties provide custom functions to add, remove, etc... values from said collection.
-However, if it doesn't, you can call the `getOrCreateCollection` function:
+However, if a function you need isn't already provided, you can call `getOrCreateCollection`:
 
 ```kotlin
 val myCollectionProp = TODO()
