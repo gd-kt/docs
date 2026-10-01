@@ -12,7 +12,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Useful Stuff', link: '/useful-stuff' }
+      { text: 'Useful Stuff', link: '/useful-stuff' },
+      { text: 'Reference', link: 'https://gd-kt.github.io/gd.kt/' }
     ],
 
     sidebar: [
