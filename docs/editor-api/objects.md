@@ -163,7 +163,7 @@ be no performance cost.
 **Dynamic** raw string factories are a special type of raw string factories.
 They allow you to add your own properties at runtime to an object.<br>
 
-To create a dynamic raw string factory from the default implementation, use `RawStringFactory.createDynamic`
+To create a dynamic raw string factory from the default implementation, use `RawStringFactory.createDynamic`.
 
 Example:
 
