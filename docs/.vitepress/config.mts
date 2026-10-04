@@ -23,6 +23,7 @@ export default defineConfig({
           { text: 'Properties', link: '/editor-api/properties' },
           { text: 'Objects', link: '/editor-api/objects' },
           { text: 'Parsing', link: '/editor-api/parsing' },
+          { text: 'Serializers', link: '/editor-api/serializers' }
           // { text: 'WSLiveEditor Support', link: '/editor-api/wsliveeditor' }
         ],
       },

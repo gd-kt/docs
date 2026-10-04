@@ -291,6 +291,8 @@ Serializer.create(
 )
 ```
 
+*To learn more about serializers, see the "[Serializers](serializers)" page*
+
 This serializer, turns an int into a string (`Int::toString`).
 It also turns a "string-ified" int into an int (`String::toInt`).
 
