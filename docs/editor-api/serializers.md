@@ -82,10 +82,10 @@ Hooking also doesn't change the serializer itself, it creates a new one.
 ```kotlin
 // This does nothing as 'hookSerializer' returns a new // [!code warning]
 // Serializer that wraps 'it + 5'                      // [!code warning]
-Serializers.INT.hookSerializer { 'it + 5' }            // [!code warning]
+Serializers.INT.hookSerializer { it + 5 }              // [!code warning]
 
-// This is how you do it
-val hookedSerializer = Serializers.INT.hookSerializer { 'it + 5' }
+// This is how you should do it instead
+val hookedSerializer = Serializers.INT.hookSerializer { it + 5 }
 ```
 
 To hook the parser you can also do `.hookParser`.
