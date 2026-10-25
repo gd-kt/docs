@@ -237,7 +237,7 @@ val myCollectionProp = TODO()
 myCollectionProp.getOrCreateCollection().addAll(TODO())
 
 // However THIS SHOULDN'T be done !   // [!code error]
-myCollectionProp.value.addAll(TODO()) // [!code error]
+myCollectionProp.getOrThrow().addAll(TODO()) // [!code error]
 ```
 
 But, for "pure" functions which don't mutate the collection, `.value` can
