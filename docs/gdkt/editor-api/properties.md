@@ -74,7 +74,7 @@ One of the most common thing to do with properties is to get their **raw string*
 val rawStr = prop.asRawString()
 ```
 
-However geometry dash won't understand it if it's alone, this is where [objects](/editor-api/objects) come into place.
+However geometry dash won't understand it if it's alone, this is where [objects](objects) come into place.
 
 ---
 

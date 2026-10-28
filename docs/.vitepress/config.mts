@@ -18,22 +18,36 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Editor',
+        text: 'gd.kt',
         items: [
-          { text: 'Properties', link: '/editor-api/properties' },
-          { text: 'Objects', link: '/editor-api/objects' },
-          { text: 'Parsing', link: '/editor-api/parsing' },
-          { text: 'Serializers', link: '/editor-api/serializers' },
-          { text: 'WSLiveEditor Support', link: '/editor-api/wsliveeditor' }
+            { text: 'Getting Started', link: '/gdkt/getting-started' },
+            { text: 'Why gd.kt ?', link: '/gdkt/why-gdkt' }
+        ]
+      },  
+      {
+        text: 'gd.kt - Editor',
+        items: [
+          { text: 'Properties', link: '/gdkt/editor-api/properties' },
+          { text: 'Objects', link: '/gdkt/editor-api/objects' },
+          { text: 'Parsing', link: '/gdkt/editor-api/parsing' },
+          { text: 'Serializers', link: '/gdkt/editor-api/serializers' },
+          { text: 'WSLiveEditor Support', link: '/gdkt/editor-api/wsliveeditor' }
         ],
       },
       // {
-      //   text: 'Client',
+      //   text: 'gd.kt - Client',
       //   items: [
       //     { text: 'Markdown Examples (client)', link: '/markdown-examples' },
       //     { text: 'Runtime API Examples (client)', link: '/api-examples' }
       //   ],
       // },
+      {
+        text: 'Trigg',
+        items: [
+          { text: 'Getting Started', link: '/trigg/getting-started' },
+        ]
+        
+      },
       {
         text: 'Misc',
         items: [
