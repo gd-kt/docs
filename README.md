@@ -4,6 +4,8 @@
 
 # gd.kt documentation
 
-This is the official documentation for [gd.kt](https://github.com/gd-kt/gd.kt).
+This is the official documentation for [gd.kt](https://github.com/gd-kt/gd.kt) and all of its related projects.
 
-To run this locally, run `npm run ds:dev`, or build and preview with `npm run build` and `npm run preview`.
+## Contributing
+
+To run this locally, run `npm run dev`, or build and preview with `npm run build` and `npm run preview`.

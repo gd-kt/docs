@@ -34,7 +34,12 @@ You can look at classes implementing `PropertyDefinition` in your IDE to look at
 
 Properties store 2 main information: their current value and their id. They act like an advanced pair object.
 
-**Most properties** can be instantiated like so: `Property(1.id, myValue)`.
+**Most properties** can be instantiated like so:
+
+```kotlin
+Property(1.id, myValue)
+```
+
 You can notice 2 things:
 
 - We're inputting the property's id. The `Int.id` extension is used
@@ -232,7 +237,7 @@ val myCollectionProp = TODO()
 myCollectionProp.getOrCreateCollection().addAll(TODO())
 
 // However THIS SHOULDN'T be done !   // [!code error]
-myCollectionProp.value.addAll(TODO()) // [!code error]
+myCollectionProp.getOrThrow().addAll(TODO()) // [!code error]
 ```
 
 But, for "pure" functions which don't mutate the collection, `.value` can
