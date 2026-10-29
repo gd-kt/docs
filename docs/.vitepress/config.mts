@@ -57,7 +57,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/gd-ktt' }
+      { icon: 'github', link: 'https://github.com/gd-kt' }
     ],
 
     footer: {
