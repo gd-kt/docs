@@ -270,7 +270,7 @@ tl;dr: by mutating `.value` you might accidentaly modify the property's **defaul
 ## Making your own properties
 
 To make your own properties, you must ask yourself some question about what data type is stored
-and what behavior is except from it.
+and what behavior is expected from it.
 This table will help you decide what class to implement/extend:
 
 | Class/Interface name       | Class type | Suggested data type | Useful for                                                                                        |
