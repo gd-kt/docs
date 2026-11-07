@@ -372,7 +372,7 @@ very recommended.
 
 ## Instantiating properties
 
-This last section is a bit more miscellaneous but it's about how a property can be initiated:
+This last section is a bit more miscellaneous but it's about how a property can be instantiated:
 
 - By calling its constructor
 - By calling its constructor + using the `by` keyword
