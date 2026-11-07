@@ -7,7 +7,7 @@ outline: deep
 ## Objects in Geometry Dash
 
 Objects in Geometry Dash are essentially a **list of properties**. *(see the [properties page](properties.md))*<br>
-They are formatted like this: `1,15,2,10,3,75,4,65` where there are 4 properties.
+They are formatted like this: `1,15,2,10,3,75,4,65`. This example has 4 properties.
 How properties are formatted is explained in the [properties page](properties.md#how-gd-does-it).
 
 Each objects are separated by a **semi-colon**: `1,15,2,10,3,75,4,65,1,25,2,20,3,85,7,45`.
