@@ -397,5 +397,5 @@ This allows the user to directly get/set the property's value without changing i
 ```kotlin
 assert(abstractedProp == 0)
 abstractedProp = 5
-assert(abstractedProp = 5)
+assert(abstractedProp == 5)
 ```
