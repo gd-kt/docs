@@ -317,7 +317,7 @@ class IntProperty(id: Id, defaultValue: Int? = 0, currentValue: Int? = null) : A
 
 As you can see, there are 2 main things we're doing here:
 
-- Setting a serializer: allows for the serializing/parsing of this property.
+- Setting a serializer: allows for the serialization/parsing of this property.
 - Implementing the `asRawString` function: allows for the conversion of this property
   into a raw string.
 
