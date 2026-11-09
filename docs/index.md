@@ -6,7 +6,7 @@ hero:
   name: "gd.kt"
   text: "Docs for gd.kt"
   tagline: "Your local kotlin lib for geometry dash stuff"
-  image: "/logo.png"
+  image: "/logos/gddotkt/logo.png"
   # actions:
   #   - theme: brand
   #     text: Markdown Examples

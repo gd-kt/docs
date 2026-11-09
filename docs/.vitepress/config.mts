@@ -7,7 +7,7 @@ export default defineConfig({
   lang: "en-US",
   base: "/docs/",
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/logos/gddotkt/logo.png",
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
