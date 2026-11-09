@@ -41,13 +41,12 @@ export default defineConfig({
       //     { text: 'Runtime API Examples (client)', link: '/api-examples' }
       //   ],
       // },
-      {
-        text: 'Trigg',
-        items: [
-          { text: 'Getting Started', link: '/trigg/getting-started' },
-        ]
-        
-      },
+      // {
+      //   text: 'Trigg',
+      //   items: [
+      //     { text: 'Getting Started', link: '/trigg/getting-started' },
+      //   ]
+      // },
       {
         text: 'Misc',
         items: [
