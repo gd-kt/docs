@@ -1,6 +1,6 @@
 # Parsing
 
-`gd.kt` allows you to parse ANY raw string into an object ysing the `ObjectParser` object class.<br>
+`gd.kt` allows you to parse ANY raw string into an object using the `ObjectParser` object class.<br>
 There are 2 types of parsing:
 
 - Parsing a `GenericGdObject`
