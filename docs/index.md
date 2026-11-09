@@ -33,6 +33,10 @@ This documentation is still unfinished and is prone
 to changing !
 :::
 
+::: warning
+[trigg](https://github.com/gd-kt/trigg)'s documentation is coming soon !
+:::
+
 # gd.kt
 
 gd.kt is a simple kotlin library used for the game [Geometry Dash](https://store.steampowered.com/app/322170/Geometry_Dash/).
